@@ -1,1 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog Platform API</title>
+</head>
+<body>
+    <h1>Blog Platform API</h1>
+    <ul>
+        <li>
+            <h2>API Call to List All Users</h2>
+            <a href="/users">List all users</a>
+        </li>
+        <li>
+            <h2>API Call to List All Posts of a Specific User</h2>
+            <form action="/users/posts" method="get">
+                <label for="user_id">Enter User ID to list posts:</label>
+                <input type="number" id="user_id" name="user_id" required>
+                <button type="submit">List Posts</button>
+            </form>
+        </li>
+        <li>
+            <h2>API Call to List All Comments of a Specific Post</h2>
+            <form action="/posts/comments" method="get">
+                <label for="post_id">Enter Post ID to list comments:</label>
+                <input type="number" id="post_id" name="post_id" required>
+                <button type="submit">List Comments</button>
+            </form>
+        </li>
+        <li>
+            <h2>API Call to Add a New Post for a Specific User</h2>
+            <form action="/users/posts" method="post">
+                <label for="user_id">Enter User ID to add post:</label>
+                <input type="number" id="user_id" name="user_id" required>
+                <label for="title">Enter Post Title:</label>
+                <input type="text" id="title" name="title" required>
+                <label for="description">Enter Post Description:</label>
+                <input type="text" id="description" name="description" required>
+                <button type="submit">Add Post</button>
+            </form>
+        </li>
+        <li>
+            <h2>API Call to Add a Comment to a Specific Post</h2>
+            <form action="/posts/comments" method="post">
+                <label for="post_id">Enter Post ID to add comment:</label>
+                <input type="number" id="post_id" name="post_id" required>
+                <label for="comment">Enter Comment:</label>
+                <input type="text" id="comment" name="comment" required>
+                <label for="commenter_id">Enter Commenter ID:</label>
+                <input type="number" id="commenter_id" name="commenter_id" required>
+                <button type="submit">Add Comment</button>
+            </form>
+        </li>        
+        <li>
+            <h2>API Call to Delete a Specific Post</h2>
+            <form action="/posts/delete" method="post">
+                <label for="post_id">Enter Post ID to delete:</label>
+                <input type="number" id="post_id" name="post_id" required>
+                <button type="submit">Delete Post</button>
+            </form>
+        </li>
+        <li>
+            <h2>API Call to Update a Specific User's Information</h2>
+            <form action="/users/update" method="post">
+                <label for="user_id">Enter User ID to update:</label>
+                <input type="number" id="user_id" name="user_id" required>
+                <label for="name">Enter New Name :</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Enter New Email :</label>
+                <input type="email" id="email" name="email">
+                <label for="profession">Enter New Profession :</label>
+                <input type="text" id="profession" name="profession">
+                <button type="submit">Update User</button>
+            </form>
+        </li>
+        
+    </ul>
+</body>
+</html>
 
