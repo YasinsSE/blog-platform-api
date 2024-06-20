@@ -1,6 +1,8 @@
 # blog-platform-api
 
-A blog platform API developed using Flask and MySQL.This project involves creating a backend server and a database. The goal is to develop a structure that meets the specified requirements. The aim is to provide functionalities for a blog platform consisting of users, posts, and comments on these posts.
+A blog platform API developed using Flask and MySQL.This project involves creating a backend server and
+a database. The goal is to develop a structure that meets the specified requirements. The aim is to provide
+functionalities for a blog platform consisting of users, posts, and comments on these posts.
 
 ## API Endpoints
 
