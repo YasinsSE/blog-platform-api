@@ -12,12 +12,13 @@ A blog platform API developed using Flask and MySQL.This project involves creati
 6. **Delete a specific post**: An API call that allows deleting a specific post.
 7. **Update a specific user's information**: An API call that allows updating a specific user's information.
 
+## Project Structure
+
 blog-platform-api/
 ├── app.py
 ├── db.py
 ├── templates/
-│   └── index.html
+│ └── index.html
 └── README.md
-
 
 https://youtu.be/etTkbQXEwhc
