@@ -16,11 +16,12 @@ functionalities for a blog platform consisting of users, posts, and comments on 
 
 ## Project Structure
 
-blog-platform-api/
-├── app.py
-├── db.py
-├── templates/
-│ └── index.html
-└── README.md
+- blog-platform-api/
+  - app.py
+  - db.py
+  - templates/
+      - index.html
+  - README.md
+
 
 https://youtu.be/etTkbQXEwhc
