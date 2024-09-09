@@ -22,6 +22,3 @@ functionalities for a blog platform consisting of users, posts, and comments on 
   - templates/
       - index.html
   - README.md
-
-
-https://youtu.be/etTkbQXEwhc
